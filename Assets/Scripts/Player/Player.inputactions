@@ -1,0 +1,289 @@
+{
+    "name": "Player",
+    "maps": [
+        {
+            "name": "PlayerMain",
+            "id": "244124f0-d073-43c9-9113-1c63025eee40",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "986495a4-62af-46c5-976c-a560505473e9",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "d96c8767-bebd-4ba1-89da-dae55ed6be4a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Look",
+                    "type": "Value",
+                    "id": "1e539e7c-26f7-466b-9890-97cc4654e1ec",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "EnterRaft",
+                    "type": "Button",
+                    "id": "5ffdf75d-660d-4ff3-bfc2-3417cad6c512",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ExitRaft",
+                    "type": "Button",
+                    "id": "01028315-6c54-45b5-85e0-cf660808b3a3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4794a6b0-6f4d-4b06-b5fc-8cad91696377",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Keyboard",
+                    "id": "268b6688-927d-4958-93fa-c66ba635fa2f",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "7dcc279d-8cea-40ee-aa26-4f39380633a4",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "2727545a-0002-4cef-9c89-71caaaa4d329",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "914dc802-cc17-48d8-8327-8a4891ad1179",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "f4282f5b-9ff8-4630-8716-c6a9876929f0",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "57ba7761-dd07-4210-97e8-0b55b33ac377",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "401647cc-8b11-40eb-b661-4a76ee647f1b",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2a351db2-efeb-47f8-a616-a2d076480d14",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "aff4da61-417e-462c-a7b1-0f41fadf83f8",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "EnterRaft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1bced9e9-009f-4c29-ae05-fdb11fc00904",
+                    "path": "<Keyboard>/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ExitRaft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "PlayerMain2",
+            "id": "c13ca145-6768-4e87-9a33-9eac82fc7710",
+            "actions": [
+                {
+                    "name": "TouchInput",
+                    "type": "PassThrough",
+                    "id": "6f615c04-c54a-4605-ad40-1a3fe531179f",
+                    "expectedControlType": "Touch",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "TouchPress",
+                    "type": "Button",
+                    "id": "588828b8-8ca7-4437-81e2-f077d2c9f28c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Tap"
+                },
+                {
+                    "name": "TouchPress2",
+                    "type": "Button",
+                    "id": "ee8c196f-8268-4eaf-93a9-9c2b51facf8b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "TouchPosition",
+                    "type": "PassThrough",
+                    "id": "f99974e6-b0e8-4ef9-bf5a-5daf1d38e836",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "LookAround",
+                    "type": "PassThrough",
+                    "id": "fe527bd2-5247-4b47-9fbc-1182d96356a7",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "07d6650a-d6fa-42d4-9e27-6463eb841879",
+                    "path": "<Touchscreen>/primaryTouch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchInput",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a4d95b22-e971-4297-9a06-c19989e1badd",
+                    "path": "<Touchscreen>/touch0",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchInput",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "954daad9-64be-4b9b-bc9e-7b6b045c43e6",
+                    "path": "<Touchscreen>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8065e71f-a0f7-4c31-8c51-174ca54d5b06",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6002e58b-8ba8-404a-be39-9c7be694393d",
+                    "path": "<Touchscreen>/primaryTouch/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LookAround",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "733bf038-1a9d-4a9d-80fc-300434fb496a",
+                    "path": "<Touchscreen>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchPress2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
